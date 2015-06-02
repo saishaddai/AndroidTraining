@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="hint_login_text">username</string>
+    <string name="password_hint">password</string>
+    <string name="button_login_text">SEND</string>
+    <string name="error_service_unreachable">service unreachable. Try later</string>
+    <string name="warning_well_done">Well done, you\'re logged in</string>
 </resources>
