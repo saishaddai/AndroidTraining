@@ -5,6 +5,7 @@ This is the list of apps I should develop in this directories. The list should b
 Playing with widgets, array adapters (spinners, checkboxes, digital watch, etc)
 SQLite connection / Shared Preferences, External, Internal.
 Styles / colors / images/ onClick(or listeners) to change styles and images
+Adapters
 Action bars between 3 activities
 Web Services with httpConnect
 Web Services with Volley
@@ -22,3 +23,5 @@ Wearable
 Fragments
 Android TV
 AIDL
+Services, Intent Services
+Content providers (contacts and so)
