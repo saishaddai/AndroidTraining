@@ -1,10 +1,8 @@
 package com.saishaddai.loginwithokhttp;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
+import android.os.StrictMode;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -24,10 +22,19 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setStrictModePolicyIfNeeded();
         usernameField = (EditText) findViewById(R.id.login_edit_text);
         passwordField = (EditText) findViewById(R.id.password_edit_text);
-
         loginService = new LoginRemoteService();
+    }
+
+    private void setStrictModePolicyIfNeeded() {
+        int SDK_INT = android.os.Build.VERSION.SDK_INT;
+        if (SDK_INT > 8) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.
+                    Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
     }
 
 
