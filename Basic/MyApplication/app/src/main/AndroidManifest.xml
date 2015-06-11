@@ -16,6 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TextEditionActivity"
+            android:label="@string/title_activity_text_edition" >
+        </activity>
+        <activity
+            android:name=".ButtonsActivity"
+            android:label="@string/title_activity_buttons" >
+        </activity>
+        <activity
+            android:name=".DatePickerActivity"
+            android:label="@string/title_activity_dat_time_pickers" >
+        </activity>
+        <activity
+            android:name=".TimePickerActivity"
+            android:label="@string/title_activity_time_picker" >
+        </activity>
+        <activity
+            android:name=".TextEditionResultsActivity"
+            android:label="@string/title_activity_text_edition_results" >
+        </activity>
     </application>
 
 </manifest>

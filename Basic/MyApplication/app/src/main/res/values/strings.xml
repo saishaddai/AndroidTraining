@@ -3,4 +3,27 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_text_edition">TextEditionActivity</string>
+    <string name="title_activity_buttons">Buttons</string>
+    <string name="title_activity_dat_time_pickers">DatTimePickersActivity</string>
+    <string name="edit_texts_button">Play with Text Editors</string>
+    <string name="edit_buttons_button">Play with Buttons</string>
+    <string name="date_pickers_button">Play with Date Pickers</string>
+    <string name="title_activity_time_picker">TimePickerActivity</string>
+    <string name="show_date_button">Show Date</string>
+    <string name="date_picker_button">Play with Date Picker</string>
+    <string name="time_pickers_button">Play with Time Picker</string>
+    <string name="person_name_edition">Person Name</string>
+    <string name="password_edition">Password Text</string>
+    <string name="password_numeric_edition">Password Numeric</string>
+    <string name="email_edition">Email Adress</string>
+    <string name="phone_edition">Phone Number</string>
+    <string name="zip_edition">Postal ZIP</string>
+    <string name="time_edition">Time</string>
+    <string name="date_edition">Date</string>
+    <string name="number_edition">Number</string>
+    <string name="number_signed_edition">number Signed</string>
+    <string name="number_decimal_edition">number decimal</string>
+    <string name="title_activity_text_edition_results">TextEditionResultsActivity</string>
+    <string name="edit_text_button">Send</string>
 </resources>
