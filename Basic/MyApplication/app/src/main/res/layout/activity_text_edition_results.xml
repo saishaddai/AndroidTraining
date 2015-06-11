@@ -1,71 +1,72 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.saishaddai.superform.TextEditionResultsActivity">
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/person_name_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/password_text_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/password_numeric_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/email_address_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/phone_number_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/zip_edition_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/time_field_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/date_field_results"
         />
 
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/number_field_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/number_signed_results"
         />
 
-    <TextView android:text="@string/hello_world"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/number_decimal_results"
