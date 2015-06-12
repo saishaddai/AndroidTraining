@@ -41,7 +41,7 @@ public class DatePickerActivity extends Activity {
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
-        return sdf.format(calendar.getTime());
+        return "Chosen Date: " + sdf.format(calendar.getTime());
     }
 
 
