@@ -34,4 +34,11 @@
     <string name="toggle_button">Toggle Button</string>
     <string name="smile_face_hint">smile face</string>
     <string name="image_button_pressed">image button pressed</string>
+    <string name="spinner_prompt">choose an option</string>
+
+    <string-array name="spinner_options">
+        <item>spinner 1</item>
+        <item>spinner 2</item>
+    </string-array>
+
 </resources>

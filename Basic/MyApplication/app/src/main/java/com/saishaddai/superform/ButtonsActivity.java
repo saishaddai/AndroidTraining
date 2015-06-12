@@ -36,7 +36,7 @@ public class ButtonsActivity extends Activity {
         addListenerToSwitch();
         addListenerToToggleButton();
 
-        //initializeAndAddListenerToSpinner();
+        initializeAndAddListenerToSpinner();
 
     }
 
@@ -62,14 +62,18 @@ public class ButtonsActivity extends Activity {
     private void initializeAndAddListenerToSpinner() {
         spinner = (Spinner) findViewById(R.id.spinner);
         //TODO add something in the simple adapter for this spinner
-
-        spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "chosen: " + position,
-                        Toast.LENGTH_SHORT).show();
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getApplicationContext(), "chosen: " + parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Toast.makeText(getApplicationContext(), "nothing chosen", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 
     private void addListenerToToggleButton() {
