@@ -43,7 +43,7 @@ public class TextEditionActivity extends Activity {
         numberDecimalText = (EditText) findViewById(R.id.number_decimal);
     }
 
-    public void showEditTextResults(View view) {
+    public void showResults(View view) {
         Intent intent = new Intent(this, TextEditionResultsActivity.class);
         String personName = personNameText.getText().toString();
         String password = passwordText.getText().toString();

@@ -107,7 +107,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/edit_text_button"
-        android:onClick="showEditTextResults"/>
+        android:text="@string/send_button"
+        android:onClick="showResults"/>
 
 </LinearLayout>

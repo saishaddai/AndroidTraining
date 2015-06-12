@@ -25,5 +25,5 @@
     <string name="number_signed_edition">number Signed</string>
     <string name="number_decimal_edition">number decimal</string>
     <string name="title_activity_text_edition_results">TextEditionResultsActivity</string>
-    <string name="edit_text_button">Send</string>
+    <string name="send_button">Send</string>
 </resources>

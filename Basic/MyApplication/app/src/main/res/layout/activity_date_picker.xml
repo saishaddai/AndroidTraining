@@ -6,21 +6,17 @@
     tools:context="com.saishaddai.superform.DatePickerActivity">
 
 
-    <TimePicker
+    <DatePicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/timePicker"
-        android:layout_below="@+id/datePicker"
-        android:layout_alignRight="@+id/datePicker"
-        android:layout_alignEnd="@+id/datePicker" />
+        android:id="@+id/date_picker"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:text="@string/send_button"
+        android:onClick="showResults"
+        />
 
 </LinearLayout>
