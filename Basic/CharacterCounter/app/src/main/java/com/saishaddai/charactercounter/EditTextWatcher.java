@@ -1,11 +1,8 @@
 package com.saishaddai.charactercounter;
 
 import android.text.Editable;
-import android.text.InputType;
 import android.text.TextWatcher;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class EditTextWatcher implements TextWatcher {
 
