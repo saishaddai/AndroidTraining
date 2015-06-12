@@ -35,8 +35,7 @@ public class ButtonsActivity extends Activity {
         addListenerToCheckboxes();
         addListenerToSwitch();
         addListenerToToggleButton();
-
-        initializeAndAddListenerToSpinner();
+        addListenerToSpinner();
 
     }
 
@@ -59,13 +58,12 @@ public class ButtonsActivity extends Activity {
         });
     }
 
-    private void initializeAndAddListenerToSpinner() {
+    private void addListenerToSpinner() {
         spinner = (Spinner) findViewById(R.id.spinner);
-        //TODO add something in the simple adapter for this spinner
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getApplicationContext(), "chosen: " + parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "spinner: " + parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -81,7 +79,7 @@ public class ButtonsActivity extends Activity {
         toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                Toast.makeText(getApplicationContext(), "value is now: " + isChecked,
+                Toast.makeText(getApplicationContext(), "toggle button: " + isChecked,
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -92,7 +90,7 @@ public class ButtonsActivity extends Activity {
         switchButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                Toast.makeText(getApplicationContext(), "value is now: " + isChecked,
+                Toast.makeText(getApplicationContext(), "switch: " + isChecked,
                         Toast.LENGTH_SHORT).show();
             }
         });
@@ -105,10 +103,10 @@ public class ButtonsActivity extends Activity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if (checkedId == R.id.radioButton) {
-                    Toast.makeText(getApplicationContext(), "choice: radio button 1",
+                    Toast.makeText(getApplicationContext(), "radio button 1",
                             Toast.LENGTH_SHORT).show();
                 } else if (checkedId == R.id.radioButton2) {
-                    Toast.makeText(getApplicationContext(), "choice: radio button 2",
+                    Toast.makeText(getApplicationContext(), "radio button 2",
                             Toast.LENGTH_SHORT).show();
                 }
 
