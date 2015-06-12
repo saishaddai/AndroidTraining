@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CharacterCounter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text_hint">write up something, only 10 characters allowed</string>
+    <string name="default_size">0</string>
+    <string name="non_changeable_text">/10</string>
+</resources>
