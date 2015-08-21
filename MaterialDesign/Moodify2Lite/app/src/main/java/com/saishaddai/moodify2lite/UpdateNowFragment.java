@@ -13,9 +13,7 @@ public class UpdateNowFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        RecyclerView rv = (RecyclerView) inflater.inflate(
-                R.layout.fragment_mood_list, container, false);
-        return rv;
+        return inflater.inflate(R.layout.fragment_mood_list, container, false);
     }
 
 }
