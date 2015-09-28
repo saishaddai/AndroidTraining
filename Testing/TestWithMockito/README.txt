@@ -1,0 +1,1 @@
+This project is to test the new features of mockito and instrumentation tests

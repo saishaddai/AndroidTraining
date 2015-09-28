@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestWithMockito</string>
+    <string name="action_exit">Exit</string>
+    <string name="openActivity2Text">Go to Activity 2</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title_activity_3">Activity3</string>
+    <string name="activity2Text">Now in activity 2</string>
+</resources>
